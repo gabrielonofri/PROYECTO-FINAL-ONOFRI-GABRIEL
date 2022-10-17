@@ -1,0 +1,202 @@
+/* global*/
+
+@import url('https://fonts.googleapis.com/css2?family=Monserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;800&display=swap');
+
+body {
+
+font-family: 'Montserrat', sans-serif;
+overflow-x: hidden;
+
+}
+
+.navbar-brand img {
+
+    display:inline;
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+
+}
+
+
+#menu li a {
+
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    
+
+}
+
+#menu form button {
+
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+/*index*/
+
+.carousel-inner {
+
+    max-height: 39rem;
+}
+
+
+/*media queries pantalla ancha*/
+
+@media (max-width:1200px) {
+
+    #local {
+
+        flex-wrap: wrap;
+        padding-top: 30px;
+
+    }
+    
+    .wrapper {
+
+        width: 90%;
+        margin: auto;
+        padding-top: 50px;
+
+    }
+}
+
+
+/*media queries pantalla sm*/
+
+@media (max-width:768px) {
+
+
+    #intro, #equipo {
+
+        width: 90% !important;
+
+    }
+    #equipo p {
+
+        display: none;
+    }
+
+    .servicio-fila {
+
+        width: 100% !important;
+        text-align: center;
+
+    }
+
+    #bg-contacto {
+
+        
+        top: -110px;
+    
+    }
+
+}
+
+
+/*media queries pantalla extra-sm*/
+
+@media (max-width: 576px) {
+
+.imagen-wrap {
+
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+}
+
+footer {
+
+    background: #1b2a4e;
+    min-height: 100px;
+    margin-top: 5px;
+}
+
+footer p {
+
+color: #f3f3f3;
+text-align: center;
+
+
+}
+
+#iconos {
+
+font-size: 26px;
+padding: 0 8px;
+color: #f3f3f3;
+
+}
+
+/*contacto*/
+
+.mapa {
+
+
+    margin-top: 10px;
+    width: 50%;
+    height: 400px;
+
+}
+
+#local {
+
+    background: #F3F3F3;
+    padding-bottom: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrapper {
+
+width: 75%;
+margin-left: 100px;
+padding-top: 150px;
+
+
+}
+
+/*contacto bg*/
+
+#bg-contacto {
+
+    position: relative;
+    top: -130px;
+
+}
+
+#seccion-contacto {
+
+
+    background-color: whitesmoke;
+    min-height: 500px;
+    position: relative;
+
+}
+
+#contenedor-formulario {
+
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+
+
+}
+
+#titulo-formulario {
+
+
+    color: #3f3f3f;
+
+}
+
