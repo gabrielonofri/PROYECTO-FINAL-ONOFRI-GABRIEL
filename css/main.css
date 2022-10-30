@@ -528,7 +528,7 @@ body{
 }
 .contenedor figure{
    position:relative;
-    height: 350px;
+    height: 250px;
     cursor: pointer;
     width: 350px;
     overflow: hidden;
